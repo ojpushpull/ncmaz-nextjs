@@ -41,11 +41,7 @@ const PageHome = ({}) => {
 
         <div className="relative py-16">
           <BackgroundSection />
-          <SectionSliderNewAuthors
-            heading="Newest authors"
-            subHeading="Say hello to future  potentials"
-            authors={DEMO_AUTHORS.filter((_, i) => i < 10)}
-          />
+        
         </div>
 
         <SectionSliderNewCategories
@@ -60,7 +56,7 @@ const PageHome = ({}) => {
           <BackgroundSection />
           <SectionSliderPosts
             postCardName="card9"
-            heading="Explore latest audio articles"
+            heading="Read the articles in the "
             subHeading="Click on the icon to enjoy the music or podcast 🎧"
             posts={DEMO_POSTS_AUDIO.filter((_, i) => i > 3 && i < 10)}
           />
