@@ -23,7 +23,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={poppins.className}>
 			<body className="">
-				<div className="bg-[#278ab0] text-base text-pink-600 dark:bg-neutral-900/95 dark:text-neutral-200">
+				<div className="bg-[#278ab0] text-base text-blue-900 dark:bg-neutral-900/95 dark:text-neutral-200">
 					<SiteHeader />
 					{children}
 					<Footer />
