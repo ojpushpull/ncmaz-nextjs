@@ -7,6 +7,7 @@ const randomId = _.uniqueId;
 export const MEGAMENU_TEMPLATES: NavItemType[] = [
   // home pages ---------
   {
+    
     id: randomId(),
     href: "/#",
     name: "Home Page",
@@ -62,7 +63,7 @@ export const MEGAMENU_TEMPLATES: NavItemType[] = [
         id: randomId(),
         href: "/single-gallery/demo-slug" as Route,
         name: "Single Gallery",
-        isNew: true,
+        isNew: false,
       },
     ],
   },
@@ -137,7 +138,7 @@ export const MEGAMENU_TEMPLATES: NavItemType[] = [
       },
     ],
   },
-];
+]; 
 
 const OTHER_PAGE_CHILD: NavItemType[] = [
   // archive pages ----------------
@@ -318,11 +319,13 @@ const OTHER_PAGE_CHILD: NavItemType[] = [
   },
 ];
 
-export const NAVIGATION_DEMO_2: NavItemType[] = [
+
+export const NAVIGATION_DEMO_2: NavItemType[] = [ //This is the main nav bar being run 
   {
     id: randomId(),
     href: "/",
-    name: "Homes",
+    name: "Home",
+   /*///Dropdown menu for Home nav bar
     type: "dropdown",
     children: [
       { id: randomId(), href: "/", name: "Home page 1" },
@@ -334,13 +337,15 @@ export const NAVIGATION_DEMO_2: NavItemType[] = [
       { id: randomId(), href: "/home-2", name: "Header style 2", isNew: true },
       { id: randomId(), href: "/home-3", name: "Header style 3" },
     ],
+    */ 
   },
 
   // single pages ----------------
   {
     id: randomId(),
     href: "/single/demo-slug" as Route,
-    name: "Singles",
+    name: "News",
+    /*
     type: "dropdown",
     children: [
       {
@@ -380,33 +385,34 @@ export const NAVIGATION_DEMO_2: NavItemType[] = [
         name: "Single Gallery",
         isNew: true,
       },
-    ],
+    ], 
+    */
   },
 
   //
   {
     id: randomId(),
     href: "/archive/demo-slug" as Route,
-    name: "Beauty",
+    name: "Resources",
   },
 
   {
     id: randomId(),
     href: "/archive/demo-slug" as Route,
-    name: "Sport",
+    name: "Jobs",
+  },
+  {
+    id: randomId(),
+    href: "/archive/demo-slug" as Route,
+    name: "Trainings",
+   /* type: "megaMenu",
+    children: MEGAMENU_TEMPLATES, */
   },
   {
     id: randomId(),
     href: "/search",
-    name: "Templates",
-    type: "megaMenu",
-    children: MEGAMENU_TEMPLATES,
-  },
-  {
-    id: randomId(),
-    href: "/search",
-    name: "Explore",
-    type: "dropdown",
-    children: OTHER_PAGE_CHILD,
+    name: "Events",
+    /* type: "dropdown",
+    children: OTHER_PAGE_CHILD, */
   },
 ];
