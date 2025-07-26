@@ -39,10 +39,7 @@ const PageHome = ({}) => {
           posts={DEMO_POSTS?.filter((_, i) => i < 3)}
         />
 
-        <div className="relative py-16">
-          <BackgroundSection />
         
-        </div>
 
         <SectionSliderNewCategories
           className="py-16 lg:py-28"
