@@ -22,21 +22,21 @@ const SingleHeader: FC<SingleHeaderProps> = ({
 		<>
 			<div className={`nc-SingleHeader ${className}`}>
 				<div className="space-y-5">
-					<CategoryBadgeList
+				{/*	<CategoryBadgeList
 						itemClass="!px-3"
 						categories={[DEMO_CATEGORIES[1]]}
 					/>
 					<SingleTitle
 						mainClass={titleMainClass}
 						title={'Trending web & landing page designs in 2023'}
-					/>
+					/> 
 					{!hiddenDesc && (
 						<span className="block pb-1 text-base text-neutral-500 dark:text-neutral-400 md:text-lg">
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 							Perspiciatis tempora obcaecati error ipsum voluptatibus sed
 							adipisci ut maiores nesciunt quam.
 						</span>
-					)}
+					)} */}
 					<div className="w-full border-b border-neutral-200 dark:border-neutral-700"></div>
 					<div className="flex flex-col justify-between space-y-5 sm:flex-row sm:items-end sm:space-x-5 sm:space-y-0 rtl:space-x-reverse">
 						<PostMeta2
