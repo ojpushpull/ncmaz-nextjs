@@ -13,7 +13,7 @@ const layout = ({ children }: { children: ReactNode }) => {
       </div>
 
       {/* RELATED POSTS */}
-      <SingleRelatedPosts />
+
     </div>
   );
 };

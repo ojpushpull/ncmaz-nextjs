@@ -39,13 +39,13 @@ const SingleHeader: FC<SingleHeaderProps> = ({
 					)} */}
 					<div className="w-full border-b border-neutral-200 dark:border-neutral-700"></div>
 					<div className="flex flex-col justify-between space-y-5 sm:flex-row sm:items-end sm:space-x-5 sm:space-y-0 rtl:space-x-reverse">
-						<PostMeta2
+					{/*	<PostMeta2
 							size="large"
 							className="flex-shrink-0 leading-none"
 							hiddenCategories
 							avatarRounded="rounded-full shadow-inner"
 						/>
-						<SingleMetaAction2 />
+						<SingleMetaAction2 /> */}
 					</div>
 				</div>
 			</div>
