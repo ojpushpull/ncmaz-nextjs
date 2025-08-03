@@ -38,7 +38,7 @@ const SectionLargeSlider: FC<SectionLargeSliderProps> = ({
 
   return (
     <div className={`nc-SectionLargeSlider relative ${className}`}>
-      {!!heading && <Heading desc="Everything a peer can use to offer support to the communities they serve">{heading}</Heading>}
+      {!!heading && <Heading desc="Everything a peer can use to offer support to the communities they serve" >{heading}</Heading>}
       {posts.map((item, index) => {
         if (indexActive !== index) return null;
         return (
