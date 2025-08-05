@@ -1,30 +1,35 @@
 [
   {
-    "id": "lorem-1",
+    "index": 1,
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "authorName": "Marcus Thompson",
     "date": "Aug 5, 2025"
   },
   {
-    "id": "lorem-2", 
+    "index": 2,
+    "id": "b2c3d4e5-f6g7-8901-bcde-f23456789012", 
     "text": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est mauris placerat eleifend leo.",
     "authorName": "Sarah Williams",
     "date": "Aug 4, 2025"  
   },
   {
-    "id": "lorem-3",
+    "index": 3,
+    "id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
     "text": "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit proin eget tortor risus.",
     "authorName": "David Chen",
     "date": "Aug 3, 2025"
   },
   {
-    "id": "lorem-4",
+    "index": 4,
+    "id": "d4e5f6g7-h8i9-0123-defg-456789012345",
     "text": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris viverra veniam sit amet lacus cursus. Sed porttitor lectus nibh donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat curabitur non nulla sit amet nisl tempus.",
     "authorName": "Emily Rodriguez", 
     "date": "Aug 2, 2025"
   },
   {
-    "id": "lorem-5",
+    "index": 5,
+    "id": "e5f6g7h8-i9j0-1234-efgh-567890123456",
     "text": "Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus vestibulum ac est lacinia.",
     "authorName": "James Park",
     "date": "Aug 1, 2025"

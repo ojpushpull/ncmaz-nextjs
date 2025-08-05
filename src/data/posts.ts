@@ -3,6 +3,7 @@ import __posts_news from "./jsons/__posts_news.json";
 import __postsGallery from "./jsons/__postsGallery.json";
 import __postsVideo from "./jsons/__postsVideo.json";
 import __postsAudio from "./jsons/__postsAudio.json";
+import __news from "./jsons/__news.json";
 import { DEMO_CATEGORIES } from "./taxonomies";
 import { PostDataType } from "./types";
 import { DEMO_AUTHORS } from "./authors";
@@ -82,10 +83,22 @@ const DEMO_POSTS_AUDIO = __postsAudio.map((post, index): PostDataType => {
   } as PostDataType;
 });
 
+// FOR NEWS POSTS (simplified structure)
+export interface NewsPostType {
+  index: number;
+  id: string;
+  text: string;
+  authorName: string;
+  date: string;
+}
+
+const DEMO_NEWS_SIMPLE = __news as NewsPostType[];
+
 export {
   DEMO_POSTS,
   DEMO_POSTS_AUDIO,
   DEMO_POSTS_GALLERY,
   DEMO_POSTS_VIDEO,
   DEMO_POSTS_NEWS,
+  DEMO_NEWS_SIMPLE,
 };
